@@ -1,0 +1,103 @@
+# ==========================
+#  Python + PyCharm + Django
+# ==========================
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+# (Do not store local environments in the repo)
+
+# --- Python cache and temporary files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Logs and temporary data ---
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.tmp
+*.bak
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- PyCharm / JetBrains IDE ---
+.idea/
+*.iml
+
+# --- Test caches ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# --- Jupyter notebooks ---
+.ipynb_checkpoints
+
+# --- Environment and config files ---
+.env
+.env.*
+*.env
+.envrc
+*.venv
+*.swp
+
+# --- Dependencies and build artifacts ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Packaging tools ---
+pip-wheel-metadata/
+wheels/
+MANIFEST
+
+# --- Sphinx documentation ---
+docs/_build/
+
+# --- Type checking and linters ---
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.dmypy.json
+.pytype/
+
+# ==========================
+#  Django-specific ignores
+# ==========================
+
+# --- Database ---
+db.sqlite3
+# (or any other local DB file)
+
+# --- Migrations ---
+*/migrations/
+!*/migrations/__init__.py
+# (keep __init__.py to preserve the folder structure)
+
+# --- Static and media files ---
+staticfiles/
+static/
+media/
+
+# --- Django debug toolbar cache ---
+debug_toolbar/
+
+# --- Project logs ---
+logs/
+*.log
+
+# --- Sensitive files ---
+secrets.json
